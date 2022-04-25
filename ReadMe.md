@@ -28,16 +28,17 @@ Back-end setup:
  You might need to create an Oracle account if haven't already
 2. Go to Environment Variables.
  On User Variables section, add JAVA_HOME and set value to the url of JDK installation directory.
-   eg. JAVA_HOME ='C:\Program Files\Java\jdk1.8.0_331'
+ 
+ eg. `JAVA_HOME ='C:\Program Files\Java\jdk1.8.0_331`
  On System Variables section-> edit Path-> add new -> Add url of JDK/bin directory.
-   eg. C:\Program Files\Java\jdk-13.0.2\bin
+   eg. `C:\Program Files\Java\jdk-13.0.2\bin`
 
 3. Download [Maven](https://maven.apache.org/download.cgi) , download the zip file. Extract it in `C:\Program Files`.
 4. Again, go to Environment Variables. 
  On, User Variables section, add MAVEN_HOME and set value to the url of maven directory.
-   Eg, `MAVEN_HOME = C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1`
+ Eg, `MAVEN_HOME = C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1`
  On System Variables section -> edit Path -> add new -> Add url of maven/bin directory.
-   Eg, `C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin`
+ Eg, `C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin`
 
 5. Download and install [postgresql](https://www.postgresql.org/download/windows/) version 14.2
  When prompet  during installation, use username = 'postgres' and password = '1234'.
