@@ -24,7 +24,7 @@ const Loader = () => {
         return null;
     }
     return (
-        <div style={divStyles} data-testId="loader">
+        <div style={divStyles} data-testid="loader">
             <CircularProgress size={100} />
         </div>
     );
